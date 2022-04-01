@@ -1,0 +1,15 @@
+# Put system requirement tests here
+
+# Put exported variables here
+export RBXOS_OEROOT="${RBXOS_PRJ_TOPDIR}/poky"
+export DISTRO="poky"
+#export RBXOS_BUILDLIST_RELEASE="rbxos-image-manufacture rbxos-upgrade"
+#export RBXOS_BUILDLIST_DEBUG="rbxos-image-manufacture rbxos-upgrade-debug"
+#export RBXOS_BUILDLIST_CICD="${RBXOS_BUILDLIST_RELEASE}"
+#export RBXOS_BUILDLIST_ALL="${RBXOS_BUILDLIST_RELEASE} u-boot-0manufacture-jtag-enable"
+
+# Put aliases for sourced scripts here
+# alias rbxos_sourced_script=". ${RBXOS_PRJ_TOPDIR}/local_yocto_tools/bin/rbxos_sourced_script"
+# alias bitbake='xvfb-run --server-args=":0.0 -ac" bitbake' # we shouldn't need this, it was necesary for xilinx tools
+
+# Put helper bash functions here

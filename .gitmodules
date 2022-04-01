@@ -1,0 +1,32 @@
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = honister
+[submodule "poky"]
+	path = poky
+	url = http://git.yoctoproject.org/git/poky
+	branch = honister
+[submodule "meta-swupdate"]
+	path = meta-swupdate
+	url = https://github.com/sbabic/meta-swupdate.git
+	branch = honister
+[submodule "meta-scipy"]
+	path = meta-scipy
+	url = https://github.com/reibax-marcus/meta-scipy.git
+	branch = honister
+[submodule "shared_yocto_tools"]
+	path = shared_yocto_tools
+	url = https://github.com/reibax-marcus/shared_yocto_tools.git
+	branch = honister
+[submodule "meta-solidrun"]
+	path = meta-solidrun
+	url = git@github.com:reibax-marcus/meta-solidrun.git
+	branch = feature/honister
+[submodule "meta-swupdate-rbxos"]
+	path = meta-swupdate-rbxos
+	url = https://github.com/reibax-marcus/meta-swupdate-rbxos.git
+	branch = honister
+[submodule "meta-rbxos"]
+	path = meta-rbxos
+	url = https://github.com/reibax-marcus/meta-rbxos.git
+	branch = honister

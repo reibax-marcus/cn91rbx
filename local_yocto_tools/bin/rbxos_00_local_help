@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Include common bash functions
+# shellcheck source=/dev/null
+. "${RBXOS_PRJ_TOPDIR}/shared_yocto_tools/bin/inc/funcs.inc"
+
+log_info_msg "
+* rbxos_00_local_help      - Print list of main commands specific to this platform
+"
+
+rbxos_00_global_help
